@@ -73,7 +73,7 @@ class ReytingCvetka(models.Model):
     """
     cveti_katalog = models.ForeignKey(CvetiKatalog, verbose_name= 'Каталог цветов')
     reyting = models.IntegerField('Рейтинг',default=0)
-
+# fdfd
 
 
 

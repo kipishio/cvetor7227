@@ -1,0 +1,536 @@
+
+.content{
+	border: 1px solid #0A0808;
+	width: 595px;
+	height:400px;
+
+}
+	
+
+.test1{
+	border: 1px solid #B80C0F;
+	width: 40px;
+	height:40px;
+	float: left;
+}
+	
+.test2{
+	border: 1px solid #B80C0F;	
+	width: 120px;
+
+	float: left;
+	margin-left: 1px;
+}
+
+
+.test3{
+	border: 1px solid #B80C0F;
+	width: 40px;
+	/* height:40px; */
+
+	margin-left: 0px;
+	float: left;
+}
+	
+.test4{
+	border:1px solid #B80C0F;
+	width: 341px;
+	display: inline-block;
+	/* margin-left: 0px; */
+	/* float: left; */
+}
+
+.test5{
+	border:1px solid #B80C0F;
+	width: 40px;
+	height:40px;
+	}
+.test6{
+	border:1px solid #B80C0F;
+	width: 40px;
+	height:40px;
+	float: left;
+	}
+
+.test7{
+	border:1px solid #B80C0F;
+	width: auto;
+	height:40px;
+	display: block;
+	margin: 0pc 0px 0px 45px;
+	display: block;
+	}
+
+.test8{
+	border:1px solid #B80C0F;
+	width: 40px;
+	height:40px;
+	/*margin: 0px 0px 0px 50px;*/
+	}
+
+.testos{
+	display: block;
+	border: 2px solid blue;
+	width: 550px;
+	float:left;
+}
+.block_abs {
+    height:200px;
+    border:1px solid #111;
+    width:400px;
+    background-color: #fff;
+}
+.box {
+height:50px;
+    width: 50px;
+    background-color: red;
+    
+float:left;
+
+}
+.box2 {
+height:50px;
+    width: 50px;
+    background-color: blue;
+
+    float: left;
+bottom: 0;
+    
+right: 0;
+position: absolute;
+}
+.box3 {
+height:50px;
+    width: 50px;
+    background-color: orange;
+  float:left;
+
+}
+
+.content{
+    width: 982px;
+
+
+    height: 397px;
+    border: 1px solid blue;
+}
+.content .select:active .spisok{
+    display: block;
+	
+}
+.content .select:hover {
+    background-color: blue;
+	
+    color: #fff;
+    cursor: pointer;
+}
+.content .select {
+    border: 1px solid blue;
+
+    width: 110px;
+    padding: 7px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: visible;
+    background-color: #fff;
+    font-size: 19px;
+}
+
+.content  .spisok div:hover{
+	background-color:blue;
+	color:#fff;
+}
+.content .spisok:hover{
+	display:block;
+}
+.btn:hover {
+	background-color:#eee;
+}
+.btn {border: 1px solid #111;
+    padding: 6px 15px;
+width: 80px;text-align: center;cursor: pointer;}
+.content  .spisok{
+
+
+    display: none;
+    
+
+
+    color: #111;
+    
+    
+
+
+    top: -1px;
+    
+
+
+    z-index: 1;
+    position: absolute;
+    
+
+
+    padding-top: 40px;
+
+
+    left: -1px;
+    
+
+
+    box-shadow: 0px 6px 11px rgba(0,0,0,0.3);
+
+
+    border: 1px solid blue;
+    
+
+
+    background-color: transparent;
+}
+
+.content  .spisok .sp{
+    background-color: #fff;
+
+
+    padding: 3px 10px;
+    width: 104px;
+}
+
+.sli {
+     width: 95px;
+     border: 1px solid red;
+     height: 27px;
+     margin: 10px 0 0 3px;
+     padding: 2px 6px 1px 6px;
+     position: relative;
+     font-size: 20px;
+     display: inline-block;
+}
+.sli .spmahini{
+     margin: 6px 0 0 0;
+
+     position: absolute;
+}
+
+.sli .spmahini .sl{
+     margin: 5px 0 0 0;
+     font-size: 20px;
+}
+
+
+.sli .spmahini:hover{
+
+}
+
+.blog{
+
+    display: block;
+    
+
+    border: 1px solid red;
+    width: 623px;
+    float: left;
+
+}
+
+.blog  .top{
+    
+
+    border: 1px solid red;
+    
+
+    height: 27px;
+    width: 100%;
+    float: left;
+}
+.content1{
+
+    width: 100%;
+    
+
+    /* border: 2px solid red; */
+    
+
+    float: left;
+
+    min-height: 279px;
+
+}
+
+.col_left{
+    opacity: 0.09;
+    border: 1px solid rgb(0, 255, 61);
+
+    width: 484px;
+    float: left;
+}
+
+.col_left .cl_cont{
+    
+}
+
+.col_right {
+    float: left;
+
+    border: 1px solid blue;
+    width: 135px;
+}
+.blog .content1 .cont{
+    border: 1px solid black;
+
+}
+
+.niz{
+    display: block;
+    border: 1px solid orange;
+
+    float: left;
+    width: 100%;
+}
+
+.kn5{
+    border: 1px solid black;
+
+    position: relative;
+    padding: 0px 0px 0 0;
+    margin: 4px 7px 0 7px;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+}
+
+.kn5 .kn_spisok{
+    /* border: 1px solid blue; */
+
+    display: block;
+	
+    position: absolute;
+    top: 21px;
+    width: 100%;
+    background-color: rgb(203, 240, 216);
+    display: none;
+}
+
+.kn5:hover, .kn_ka:hover{
+    background-color: #23527c;
+color:#fff !important;
+}
+.kn_spisok.open {
+    display: block !important;
+}
+.kn_spisok .kn_ka{
+    border: 1px solid red;
+	color:#333;
+    text-align: left;
+    font-size: small;
+    margin: 2px -1px 0 -1px;
+    position: relative;
+    padding: 0 0 0 6px;
+    display: block;
+    cursor: pointer;
+}
+
+.kn5 .kn_spisok .kn5 .kn_spisok, .kn5 .kn_spisok .kn_ka .kn_spisok{
+    top: -3px !important;
+
+    z-index: 2;
+    left: 120px;
+}
+
+.pusk{
+    border: 1px solid rgb(199, 16, 162);
+    
+    text-align: center;
+    margin: 4px 7px 0 7px;
+    font-size: larger;
+    position: relative;
+    z-index: 1;
+}
+.pusk:hover{
+    background: #ffbcec;
+}
+
+.pusk ul{
+    /* border: 1px solid red; */
+    
+    position: absolute;
+    top: 22px;
+    left: -1px;
+    background-color: rgb(216, 217, 229);
+    padding: 0;
+    width: 120px;
+    margin: 0px 0px 0px 0;
+    z-index: 2;
+    display: none;
+}
+
+.pusk ul li ul{
+    left: 118px;
+    top: 0px;
+    display: none;
+    position: absolute;
+}
+
+.pusk li{
+
+    border: 1px solid black;
+    
+
+    list-style-type: none;
+
+    position: relative;
+
+}
+
+.pusk li:hover{
+    background-color: rgb(253, 185, 185);
+}
+
+.pusk .open {
+    display: block !important;
+}
+
+.slider{
+    width: 397px;
+    height: 299px;
+    border: 1px solid #000;
+    background-color: #666;
+    position: absolute;
+    top: 34px;
+    left: 444px;
+    overflow: hidden;
+}
+
+.slider .left{
+    height: 100%;
+    /* border: 1px #FFF solid; */
+    width: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider .cont{
+    position: absolute;
+  
+    top: 0;
+    left: 33px;
+    width: 332px;
+    height: 263px;
+    /* border: 1px solid #fff; */
+}
+
+.slider .right{
+ position: absolute;
+
+    
+ /* border: 1px solid #fff; */
+    height: 100%;
+    width: 32px;
+    top: 0;
+    
+ right: 0;
+}
+
+.slider .bottom{
+    position: absolute;
+
+    /* border: 1px solid #fff; */
+    bottom: 0px;
+    width: 100%;
+    height: 34px;
+    left: 0;
+}
+
+.slider .ramka{
+    /* border: 1px solid #f6f6f6; */
+    height: 100%;
+    width: 10000px;
+    margin: 0 0 0 0;
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+}
+.slider .ramka:hover{
+    background-color: #28a4c9;
+}
+.slider .bottom .bt_knopka{
+	position:relative;
+	
+	border: 1px solid #fff;
+	width: 10px;
+	height: 10px;
+	float: left;
+	left: 170px;
+	top: 7px;
+	margin: 0 7px 0 0;
+	background-color: rgba(165, 172, 223, 0.5);
+	cursor: pointer;
+}
+.slider .bottom .bt_knopka:hover{
+	background-color: rgba(165, 172, 223, 1);
+}
+
+
+
+.ramka img{
+    height: 299px;
+	
+    width: 398px;
+    position: relative;
+    top: 0px;
+    left: 0;
+    display: block;
+    margin: 0 0 0 0;
+    float: left;
+}
+
+.left .le_knopka{
+    position: absolute;
+
+    border: 1px solid #fff;
+    border-radius: 15px 15px 15px 15px;
+    top: 128px;
+    left: 7px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(165, 172, 223, 0.5);
+    cursor: pointer;
+    text-align: center;      font-size: 19px;
+}
+.left .le_knopka:hover{
+ background-color: rgba(165, 172, 223, 1)	
+}
+
+.right .ri_knopka{
+    position: absolute;      
+    border: 1px solid #fff;      
+    border-radius: 15px 15px 15px 15px;
+    top: 128px;      
+    right: 8px;      
+    width: 20px;      
+    height: 20px;      
+    background-color: rgba(165, 172, 223, 0.5);
+    
+    cursor: pointer;
+    text-align: center;
+    font-size: 19px;
+}
+.right .ri_knopka:hover{
+ background-color: rgba(165, 172, 223, 1);	
+}
+
+.qwe{
+    position: relative;
+    
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+
+.qwe:hover{
+    background-color: rgba(165, 55, 55, 0.46);
+	
+}
+.sli {}
